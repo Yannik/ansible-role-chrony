@@ -1,0 +1,2 @@
+- name: Restart chrony
+  service: name=chrony state=restarted

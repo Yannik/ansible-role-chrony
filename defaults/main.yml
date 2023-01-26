@@ -1,0 +1,8 @@
+chrony_servers:
+  - 0.pool.ntp.org
+  - 1.pool.ntp.org
+  - 2.pool.ntp.org
+  - 3.pool.ntp.org
+
+# setting this to a non-empty arrow enables ntp server mode
+chrony_allow_clients: []
